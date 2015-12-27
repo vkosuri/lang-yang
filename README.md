@@ -12,6 +12,6 @@ Select Import
 
 ![alt text](http://docs.notepad-plus-plus.org/images/8/80/Ulds_undock.png "Import")
 
-Select ULD xml file
+Select UDL(User Defined Lang.) xml file
 
 Enjoy...
