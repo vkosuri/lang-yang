@@ -3,13 +3,13 @@
  Copyright (C) 2016 Mallikarjunarao Kosuri <venkatamallikarjunarao.kosuri@adtran.com>
 -->
 <NotepadPlus>
-    <UserLang name="Yang" ext="yang" udlVersion="2.1">
+    <UserLang name="YANG" ext="yang" udlVersion="2.1">
         <Settings>
-            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
-            <Prefix Keywords1="no" Keywords2="yes" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="yes" Keywords3="yes" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Comments">00 01 02 03/* 04*/</Keywords>
+            <Keywords name="Comments">00// 01 02 03 04</Keywords>
             <Keywords name="Numbers, prefix1"></Keywords>
             <Keywords name="Numbers, prefix2"></Keywords>
             <Keywords name="Numbers, extras1"></Keywords>
@@ -19,18 +19,18 @@
             <Keywords name="Numbers, range"></Keywords>
             <Keywords name="Operators1"></Keywords>
             <Keywords name="Operators2"></Keywords>
-            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, open">{</Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
-            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code1, close">}</Keywords>
             <Keywords name="Folders in code2, open"></Keywords>
             <Keywords name="Folders in code2, middle"></Keywords>
             <Keywords name="Folders in code2, close"></Keywords>
-            <Keywords name="Folders in comment, open">{</Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>
-            <Keywords name="Folders in comment, close">}</Keywords>
-            <Keywords name="Keywords1">module&#x000D;&#x000A;submodule&#x000D;&#x000A;anyxml&#x000D;&#x000A;augment&#x000D;&#x000A;choice     &#x000D;&#x000A;contact&#x000D;&#x000A;container&#x000D;&#x000A;description&#x000D;&#x000A;deviation &#x000D;&#x000A;extension   &#x000D;&#x000A;feature   &#x000D;&#x000A;grouping&#x000D;&#x000A;identity    &#x000D;&#x000A;import    &#x000D;&#x000A;include&#x000D;&#x000A;leaf     &#x000D;&#x000A;leaf-list&#x000D;&#x000A;list   &#x000D;&#x000A;namespace&#x000D;&#x000A;notification&#x000D;&#x000A;organization&#x000D;&#x000A;prefix&#x000D;&#x000A;reference&#x000D;&#x000A;revision   &#x000D;&#x000A;rpc    &#x000D;&#x000A;typedef&#x000D;&#x000A;uses     &#x000D;&#x000A;yang-version&#x000D;&#x000A;belongs-to&#x000D;&#x000A;feature&#x000D;&#x000A;extension&#x000D;&#x000A;identity&#x000D;&#x000A;type&#x000D;&#x000A;range&#x000D;&#x000A;units&#x000D;&#x000A;default&#x000D;&#x000A;value&#x000D;&#x000A;status&#x000D;&#x000A;config&#x000D;&#x000A;base&#x000D;&#x000A;key&#x000D;&#x000A;max-elements&#x000D;&#x000A;ordered-by&#x000D;&#x000A;path&#x000D;&#x000A;mandatory&#x000D;&#x000A;if-feature&#x000D;&#x000A;must&#x000D;&#x000A;refine&#x000D;&#x000A;case&#x000D;&#x000A;enum&#x000D;&#x000A;when&#x000D;&#x000A;presence&#x000D;&#x000A;bit&#x000D;&#x000A;position&#x000D;&#x000A;error-message&#x000D;&#x000A;error-app-tag&#x000D;&#x000A;deviate&#x000D;&#x000A;extension&#x000D;&#x000A;fraction-digits&#x000D;&#x000A;input&#x000D;&#x000A;output&#x000D;&#x000A;max-elements&#x000D;&#x000A;min-elements</Keywords>
-            <Keywords name="Keywords2">binary      &#x000D;&#x000A;bits               &#x000D;&#x000A;boolean            &#x000D;&#x000A;decimal64          &#x000D;&#x000A;empty              &#x000D;&#x000A;enumeration        &#x000D;&#x000A;identityref        &#x000D;&#x000A;instance-identifier&#x000D;&#x000A;int8               &#x000D;&#x000A;int16              &#x000D;&#x000A;int32              &#x000D;&#x000A;int64              &#x000D;&#x000A;leafref            &#x000D;&#x000A;string             &#x000D;&#x000A;uint8              &#x000D;&#x000A;uint16             &#x000D;&#x000A;uint32             &#x000D;&#x000A;uint64             &#x000D;&#x000A;union&#x000D;&#x000A;true&#x000D;&#x000A;false</Keywords>
-            <Keywords name="Keywords3"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">anyxml&#x000D;&#x000A;argument&#x000D;&#x000A;augment&#x000D;&#x000A;base&#x000D;&#x000A;belongs-to&#x000D;&#x000A;bit&#x000D;&#x000A;case&#x000D;&#x000A;choice&#x000D;&#x000A;config&#x000D;&#x000A;contact&#x000D;&#x000A;container&#x000D;&#x000A;default&#x000D;&#x000A;description&#x000D;&#x000A;deviate&#x000D;&#x000A;deviation&#x000D;&#x000A;enum&#x000D;&#x000A;error-app-tag&#x000D;&#x000A;error-message&#x000D;&#x000A;extension&#x000D;&#x000A;feature&#x000D;&#x000A;fraction-digits&#x000D;&#x000A;grouping&#x000D;&#x000A;identity&#x000D;&#x000A;if-feature&#x000D;&#x000A;import&#x000D;&#x000A;input&#x000D;&#x000A;key&#x000D;&#x000A;leaf&#x000D;&#x000A;leaf-list&#x000D;&#x000A;length&#x000D;&#x000A;list&#x000D;&#x000A;mandatory&#x000D;&#x000A;max-elements&#x000D;&#x000A;module&#x000D;&#x000A;must&#x000D;&#x000A;namespace&#x000D;&#x000A;notification&#x000D;&#x000A;ordered-by&#x000D;&#x000A;organization&#x000D;&#x000A;output&#x000D;&#x000A;path&#x000D;&#x000A;pattern&#x000D;&#x000A;prefix&#x000D;&#x000A;presense&#x000D;&#x000A;range&#x000D;&#x000A;reference&#x000D;&#x000A;refine&#x000D;&#x000A;require-instance&#x000D;&#x000A;revision&#x000D;&#x000A;revision-date&#x000D;&#x000A;rpc&#x000D;&#x000A;status&#x000D;&#x000A;submodule&#x000D;&#x000A;type&#x000D;&#x000A;typedef&#x000D;&#x000A;unique&#x000D;&#x000A;units&#x000D;&#x000A;uses&#x000D;&#x000A;value&#x000D;&#x000A;when&#x000D;&#x000A;yang-version&#x000D;&#x000A;yin-element&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords2">add&#x000D;&#x000A;current&#x000D;&#x000A;default-deny-all&#x000D;&#x000A;default-deny-write&#x000D;&#x000A;delete&#x000D;&#x000A;deprecated&#x000D;&#x000A;false&#x000D;&#x000A;max&#x000D;&#x000A;min&#x000D;&#x000A;not-supported&#x000D;&#x000A;obsolete&#x000D;&#x000A;replace&#x000D;&#x000A;system&#x000D;&#x000A;true&#x000D;&#x000A;unbounded&#x000D;&#x000A;user&#x000D;&#x000A;yang:date-and-time</Keywords>
+            <Keywords name="Keywords3">binary&#x000D;&#x000A;bits&#x000D;&#x000A;boolean&#x000D;&#x000A;decimals64&#x000D;&#x000A;empty&#x000D;&#x000A;enumeration&#x000D;&#x000A;identityref&#x000D;&#x000A;instance-identifier&#x000D;&#x000A;int16&#x000D;&#x000A;int32&#x000D;&#x000A;int64&#x000D;&#x000A;int8&#x000D;&#x000A;leafref&#x000D;&#x000A;string&#x000D;&#x000A;uint16&#x000D;&#x000A;uint32&#x000D;&#x000A;uint64&#x000D;&#x000A;uint8&#x000D;&#x000A;union</Keywords>
             <Keywords name="Keywords4"></Keywords>
             <Keywords name="Keywords5"></Keywords>
             <Keywords name="Keywords6"></Keywords>
@@ -40,12 +40,12 @@
         </KeywordLists>
         <Styles>
             <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="LINE COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="16777216" />
+            <WordsStyle name="COMMENTS" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS1" fgColor="0F27FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS2" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
